@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    body {
+        font-family: 'poppins';
+        overflow-x: hidden;
+    }
+ button {
+        color: white;
+ }
+
