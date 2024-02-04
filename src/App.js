@@ -5,6 +5,8 @@ import { ServicePage } from './Pages/ServicePage';
 import { AboutPage } from './Pages/AboutPage';
 import { Home, HomePage } from './Pages/HomePage';
 import { Contact } from './Components/Contact';
+import Footer from './Components/Footer';
+
 
 
 
@@ -15,6 +17,7 @@ function App() {
     <div>
       <BrowserRouter >
       <Navbar />
+    
       <Routes>
       <Route path='/' element={<HomePage/>}/>
       <Route path='ServicePage' element={<ServicePage/>}/>
@@ -24,6 +27,7 @@ function App() {
 
       </Routes>
       <Contact />
+      <Footer />
 
       </BrowserRouter>
      
