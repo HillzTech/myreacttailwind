@@ -19,7 +19,7 @@ export const Contact = (props) => {
                                 <span className="fw-bold">Main Location:</span> 6 Agbi Close Cele Egbe Lagos
                            </li>
                            <li className="list-group-item">
-                                <span className="fw-bold">Enrollment Phone:</span> +2348061703360
+                                <span className="fw-bold">Enrollment Phone:</span> +2348133469555
     
                             </li>
                            <li className="list-group-item">
